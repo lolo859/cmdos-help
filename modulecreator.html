@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Aide - CmdOS</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            html{
+                background-color: rgb(219, 219, 219);
+            }
+        </style>
+        <link rel="shortcut icon" href="cmdoslogo.ico"/>
+    </head>
+    <body>
+        <a href="help.html"> Retour à la page d'aide</a>
+        <h4>Créer son propre module</h4> 
+        <p>I. Coder le module</a></p>
+        <p>Créer un fichier python avec le nom exact du module. Ce fichier python doit obligatoirement contenir une fonction execute() qui possède un argument "arg" de type liste.</p>
+        <p>Vous devez ensuite ajouté un fichier nommé "version.txt" avec uniquement la version inscrite. Exemple : 1.2.3</p>
+        <p>Vous pouvez ajouté un fichier "authorisation.txt" qui contiendra les autorsations nécessaires au module. Exemple : displaysplit rep</p>
+        <p>Liste des autorisations possibles qui seront transmis en argument lors de l'éxécution du module : </p>
+        <u>
+                <li>displaysplit : transmet sous la forme d'un int le choix de l'utilisateur d'afficher ou non sa réponse séparé par des espaces</li>
+                <li>adresse : transmet sous la forme d'un str l'adresse du dossier de l'utilisateur</li>
+                <li>rep : transmet sous la forme d'un str la requête complète de l'utilisateur</li>
+        </u>
+        <p>Vous n'êtes pas obligés d'utiliser l'argument "arg" mais il doit obligatoirement être présent dans la déclaration de la fonction execute()</p>
+        <p>Les autorisations sont séparés par des espaces et écrit sur une seule ligne.</p>
+        <p>CmdOS ira chercher en priorité les autorisations inscrites dans le fichier authorisation.txt. S'il n'et pas présent, il ira les chercher dans la base de donnée.</p>
+        <p>Pour indiquer que vous n'avez pas besoin d'autorisations, écrivez simplement "NULL" dans ce fichier.</p>
+        <p>Si nécessaire, vous pouvez ajoutez d'autres fichiers.</p>
+        <p>II. Envoyer le module sur GitHub</p>
+        <p>Créer vous un compte ou connecter-vous.</p>
+        <p>Créer un dépôt et mettez-y tous les fichiers de votre module avec le fichier python principale à la racine du dépôt.</p>
+        <p>III. Envoyer la candidature</p>
+        <p>Envoyez un mail à cette adresse-mail : fialairem@gmail.com</p>
+        <p>Indiquer le lien du dépôt GitHub, le nom du module et ses autorisations nécessaires.</p>
+        <p>Je le testerai et l'ajouterai à la base de donnée. Vous receverez un mail de confirmation ou demandant des précisions.</p>
+        <p>Inutile de m'envoyer plein de mail, la procédure peut prendre du temps.</p>
+    </body>
+</html>

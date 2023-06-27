@@ -1,0 +1,14 @@
+@import url(chrome://resources/css/roboto.css);
+
+body {
+  font-family: Roboto, "DejaVu Sans", Arial, sans-serif;
+  font-size: 81.25%;
+}
+
+button {
+  font-family: Roboto, "DejaVu Sans", Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
