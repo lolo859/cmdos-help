@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Aide - CmdOS</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            html{
+                background-color: rgb(219, 219, 219);
+            }
+        </style>
+        <link rel="shortcut icon" href="cmdoslogo.ico"/>
+    </head>
+    <body>
+        <a href="help.html"> Retour à la page d'aide</a>
+        <h4>Commande "sys"</h4>
+        <p>La commannde "sys" permet de modifier certains paramètres.</p>
+        <h4>Modification de compte</h4> 
+        <p>La sous-commande "account" vous permet de modifier votre compte simplement.</a></p>
+        <ul>
+                <li><p>sys account user : modifier votre nom d'utilisateur</p></li>
+                <li><p>sys account password : modifier votre mot de passe</p></li>
+                <li><p>sys account disconnect : déconnecte votre compte (non disponible pour les comptes locaux)</p></li>
+                <li><p>sys account delete : supprime votre compte</p></li>
+                <li><p>sys account reset : réinitialise votre clé de chiffrement (non disponible pour les comptes locaux)</p></li>
+        </ul>
+        <h4>Mise à jour</h4> 
+        <p>La sous-commande "update" vous permet de mettre à jour le système.</a></p>
+        <ul>
+                <li><p>sys update check : vérifie la version du système</p></li>
+                <li><p>sys update upgrade : télécharge <a href="getcmdos.html">get-cmdos</a> pour effectuer la mise à jour</p></li>
+        </ul>
+        <h4>Suppression des fichiers temporaires</h4>
+        <p>En tapant "sys purge", vous pouvez supprimer tous les fichiers de logs de CmdOS.</p>
+        <h4>Analyse du disque</h4>
+        <p>En tapant "sys scan", vous pouvez rechercher d'autres instances de CmdOS sur votre appareil.</p>
+        <p>Attention : cela peut prendre du temps</p>
+        <h4>Informations systèmes</h4>
+        <p>En tapant "sys info", vous obtiendrez des informations sur votre système et votre machine :</p>
+        <img src="help/sysinfo.png">
+    </body>
+</html>
